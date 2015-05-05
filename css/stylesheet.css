@@ -1,0 +1,33 @@
+BODY {
+	background-image: url("../images/background3.png");
+	background-size: 30%;
+	background-repeat: no-repeat;
+}
+
+#smallTip {
+	position: absolute;
+	top: 289px;
+	left: 80px;
+	opacity: 1;
+}
+
+#mediumTip {
+	position: absolute;
+	top: 289px;
+	left: 155px;
+	opacity: 1;
+}
+
+#largeTip {
+	position: absolute;
+	top: 289px;
+	left: 226px;
+	opacity: 1;
+}
+
+#resetButton {
+	position: absolute;
+	top: 468px;
+	left: 155px;
+	opacity: 1;
+}
