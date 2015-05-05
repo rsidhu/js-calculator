@@ -8,26 +8,61 @@ BODY {
 	position: absolute;
 	top: 289px;
 	left: 80px;
-	opacity: 1;
+	opacity: 0;
 }
 
 #mediumTip {
 	position: absolute;
 	top: 289px;
 	left: 155px;
-	opacity: 1;
+	opacity: 0;
 }
 
 #largeTip {
 	position: absolute;
 	top: 289px;
 	left: 226px;
-	opacity: 1;
+	opacity: 0;
 }
 
 #resetButton {
 	position: absolute;
 	top: 468px;
 	left: 155px;
-	opacity: 1;
+	opacity: 0;
+}
+
+H2 {
+	font-size: 10pt;
+	font-family: courier;
+}
+
+#tipBox {
+	position: absolute;
+	top: 318px;
+	left: 179px;
+}
+
+#totalBox {
+	position: absolute;
+	top: 358px;
+	left: 78px;
+}
+
+#billAmount{
+	position: absolute;
+	top: 209px;
+	left: 150px;
+}
+
+.text_input, textarea, select, #billAmount input {
+
+background: rgba(0, 0, 0, 0);
+border: 0 0 0 0;
+max-width: 60px;
+
+}
+
+#billAmount textarea{
+	background: rgba(0,0,0,.5);
 }
